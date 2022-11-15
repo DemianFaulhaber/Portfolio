@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/* Letras crecientes */
+#Fondo{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: 
+    url("../templates/Fondo.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+#texto-creciente{
+    font-family: 'Varela', sans-serif;
+    font-weight: 1000;
+    position: relative;
+    font-size: 4vh;
+    color: white;
+    top: 40vh; 
+}
+
+#texto-creciente .nombre{
+    font-weight: bold;
+    font-style: normal;
+}
+/* Letras Crecientes */
+
+
+/* Redes Sociales */
+.container-socialmedia {
+    box-sizing: content-box;
+    background-color: darkslategray;
+    display: flex;
+    position: sticky;
+}    
+
+.container-socialmedia img{
+    border-radius: 4vh;
+    width: 2vh;
+    height: 2vh;
+    padding: 2vh;
+    display: flex;
+}
+/* Redes Sociales */
+
+/* Fades */
+.fade_up{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.fade_left{
+    opacity: 0%;
+    transition:all 0.5s;
+}
+
+.fade_right{
+    opacity: 0%;
+    transition:all 0.5s;
+}
+
+.fade_down{
+    opacity: 0%;
+    transition:all 0.5s;
+}
+
+
+.transform_up{
+    transform: translateY(20%);
+}
+
+.transform_down{
+    transform: translateY(-20%);
+}
+
+.transform_right{
+    transform: translateX(-20%);
+}
+
+.transform_left{
+    transform: translatex(20%);
+}
+
+
+.show{
+    opacity: 1;
+    transform: none;
+}
+
+/* Fades */
+
+
+/* Abme/skills */
+
+#aboutme {
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: rgb(24, 24, 24);
+    background-size: cover;
+    box-sizing: content-box;
+    min-height: 55vh;
+}
+
+#aboutme h1{
+    padding: 3vh;
+    position: relative;
+    font-family: 'Inconsolata', monospace;
+    color: chartreuse;
+    text-align: center;
+}
+
+#aboutme li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 2vh;
+}
+
+#aboutme #aprendiendo li {
+    display: inline-block;
+}
+
+#aprendido img {
+    width: 10vh;
+    height: 10vh;
+    margin: 5vh 5vh 1vh 11.5vh;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5%;
+}
+
+#aprendiendo img {
+    width: 10vh;
+    height: 10vh;
+    margin: 5vh 5vh 1vh 28vh;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5%;
+}
+
+#aprendiendo {
+    padding-bottom: 4vh;
+}
+
+
+#aboutme_text h1{
+    padding-bottom: 6vh;
+    text-align: justify;
+    font-size: 3.8vh;
+}
+
+
+/* Abme/skills */
+
+/* Trabajos */
+
+.trabajos {
+    background-image: url("../templates/fondo_gris.jpg");
+    min-height: 100vh;
+    min-width: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+    display: flex;
+}
+
+.ThisPage {
+    height: 50vh;
+    width: 35vh;
+    background-image: url("../templates/portfolio.png");
+    background-position: center center;
+    background-size: cover;
+    position: center;
+    margin-left: 42%;
+    margin-top: 10%;
+    background-position: center;
+    border-radius: 30% 0%;
+}

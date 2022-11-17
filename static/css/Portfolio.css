@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 * {
     padding: 0%;
@@ -63,6 +64,10 @@
     color: white;
     font-family: 'varela', sans-serif;
 
+}
+
+.no_link {
+    cursor: default !important;
 }
 
 /* Redes Sociales */
@@ -186,8 +191,19 @@
 }
 
 .link_trabajos{
-    margin-left: 34%;
+    margin-left: 40%;
     margin-top: 10%;
+}
+
+
+.trabajos p{
+    padding-top: 3%;
+    padding-left: 45%;
+    position: absolute;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 100;
 }
 
 

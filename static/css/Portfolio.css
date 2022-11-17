@@ -49,6 +49,21 @@
     padding: 2vh;
     display: flex;
 }
+
+.container-socialmedia p{
+    padding-top: 1.9vh;
+    font-family: 'varela', sans-serif;
+    color: white;
+}
+
+.container-socialmedia a{
+    padding-top: 1.9vh;
+    padding-left: 120vh;
+    color: white;
+    font-family: 'varela', sans-serif;
+
+}
+
 /* Redes Sociales */
 
 /* Fades */
@@ -169,6 +184,12 @@
     display: flex;
 }
 
+.link_trabajos{
+    margin-left: 42%;
+    margin-top: 10%;
+}
+
+
 .ThisPage {
     height: 50vh;
     width: 35vh;
@@ -176,8 +197,15 @@
     background-position: center center;
     background-size: cover;
     position: center;
-    margin-left: 42%;
-    margin-top: 10%;
     background-position: center;
     border-radius: 30% 0%;
+    transition: .5s;
+
+}
+
+.ThisPage:hover {
+    background-color: white;
+    opacity: 70%;
+    height: 55vh;
+    width: 40vh;
 }

@@ -134,6 +134,10 @@ document.getElementById("icono-linkedin").addEventListener("click", e=>{
     window.location.href = "https://www.linkedin.com/in/demian-faulhaber-644b68234/"
 })
 
+document.getElementById("icono-linkedin").addEventListener("click", e=>{
+    window.location.href = "https://www.linkedin.com/in/demian-faulhaber-644b68234/"
+})
+
 
 
 

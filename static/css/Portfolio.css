@@ -48,6 +48,7 @@
     height: 2vh;
     padding: 2vh;
     display: flex;
+    cursor: pointer;
 }
 
 .container-socialmedia p{
@@ -185,7 +186,7 @@
 }
 
 .link_trabajos{
-    margin-left: 42%;
+    margin-left: 34%;
     margin-top: 10%;
 }
 

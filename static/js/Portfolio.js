@@ -134,8 +134,12 @@ document.getElementById("icono-linkedin").addEventListener("click", e=>{
     window.location.href = "https://www.linkedin.com/in/demian-faulhaber-644b68234/"
 })
 
-document.getElementById("icono-linkedin").addEventListener("click", e=>{
-    window.location.href = "https://www.linkedin.com/in/demian-faulhaber-644b68234/"
+document.getElementById("icono-numero").addEventListener("click", e=>{
+    window.location.href = "https://api.whatsapp.com/send?phone=5491130219151&text=Hi!+You+can+talk+with+me+here+or+at+my+Email+faulhaberdemian%40gmail.com"
+})
+
+document.getElementById("icono-gmail").addEventListener("click", e=>{
+    window.location.href = "mailto:faulhaberdemian@gmail.com"
 })
 
 

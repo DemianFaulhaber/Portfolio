@@ -11,7 +11,7 @@
 /* Letras crecientes */
 #Fondo{
     min-height: 100vh;
-    min-width: 100vh;
+    min-width: 100vw;
     background-image: 
     url("../templates/Fondo.jpg");
     background-position: center center;
@@ -23,7 +23,7 @@
     font-family: 'Varela', sans-serif;
     font-weight: 1000;
     position: relative;
-    font-size: 4vh;
+    font-size: 4vh 4vw;
     color: white;
     top: 40vh; 
 }
@@ -36,38 +36,34 @@
 
 
 /* Redes Sociales */
+
+.footer {
+    background-color: darkslategray;
+    box-sizing: content-box;
+    display: block;
+}
+
 .container-socialmedia {
     box-sizing: content-box;
     background-color: darkslategray;
-    display: flex;
-    position: sticky;
+    display: inline-flex;
+    width: 100vw;
+    background-attachment: fixed ;
+    background-size: cover; 
+    padding-bottom: 0%;
 }    
 
 .container-socialmedia img{
-    border-radius: 4vh;
-    width: 2vh;
+    border-radius: 50%;
     height: 2vh;
     padding: 2vh;
     display: flex;
     cursor: pointer;
 }
 
-.container-socialmedia p{
-    padding-top: 1.9vh;
-    font-family: 'varela', sans-serif;
-    color: white;
-}
-
 .container-socialmedia a{
-    padding-top: 1.9vh;
-    padding-left: 120vh;
     color: white;
     font-family: 'varela', sans-serif;
-
-}
-
-.no_link {
-    cursor: default !important;
 }
 
 /* Redes Sociales */
@@ -180,25 +176,27 @@
 
 /* Trabajos */
 
+
 .trabajos {
     background-image: url("../templates/fondo_gris.jpg");
     min-height: 100vh;
-    min-width: 100vh;
+    min-width: 100vw;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover; 
+    background-size: cover !important; 
     display: flex;
 }
 
-.link_trabajos{
-    margin-left: 40%;
-    margin-top: 10%;
+.works {
+    height: 50vh;
+    width: 35vh;
+    margin-left: 40vw;
+    margin-top: 20vh;
 }
-
 
 .trabajos p{
     padding-top: 3%;
-    padding-left: 45%;
+    padding-left: 45vw;
     position: absolute;
     font-family: 'Fjalla One', sans-serif;
     font-size: 3vh;
